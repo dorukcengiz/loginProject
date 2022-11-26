@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body{
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1457003633805-c9e8bd076e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2126&q=80");
+    background-size: cover;
+}
+.container{
+    
+    width: 45%;
+    height: 40%;
+    display: flex;
+    
+}
+.left-side{
+    flex: 0 60%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-side-content{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.left-side-content h2{
+    font-size: 30px;
+    height: 50px;
+    color: #8e8f94;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+}
+.form-group h5{
+    color: #8e8f94;
+    font-weight: 400;
+}
+.form-input{
+    padding: 15px 15px;
+    border: 1px solid #c3c4c7;
+    width: 85%;
+}
+.form-input::placeholder{
+    font-size: 8px;
+    font-weight: 600;
+}
+.form-btn{
+    width: 40%;
+    padding: 15px 10px;
+    margin-top: 2rem;
+    border: 1px solid #8e8f94;
+    color: #8e8f94;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.right-side{
+    background-color: black;
+    flex: 0 40%;
+    opacity: 0.6;
+    color: white;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.right-side-content{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-side-content h2{
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+}
+.info-p{
+    font-size: 12px;
+    text-align: center;
+    height: 60px;
+}
+.right-side-btn{
+    background-color: transparent;
+    width: 70%;
+    padding: 15px 10px;
+    border: 1px solid #8e8f94;
+    color: #8e8f94;
+    border-radius: 8px;
+    font-weight: 600;
+}
